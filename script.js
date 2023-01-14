@@ -134,10 +134,10 @@ function getPasswordOptions() {
 
   console.log("Length: "+pwdOption.length);
   while (!inputValid) { // if user didn't choose any options, ask user again
-    pwdOption.withSpecialChar = confirm("Would you like to include special characters? \nIf yes, please press 'OK', otherwise, please press 'Cancel"); 
-    pwdOption.withNumericChar = confirm("Would you like to include numeric characters? \nIf yes, please press 'OK', otherwise, please press 'Cancel"); 
-    pwdOption.withLowerCasedChar = confirm("Would you like to include lowercase characters? \nIf yes, please press 'OK', otherwise, please press 'Cancel"); 
-    pwdOption.withUpperCasedChar = confirm("Would you like to include uppercase characters? \nIf yes, please press 'OK', otherwise, please press 'Cancel"); 
+    pwdOption.withSpecialChar = confirm("Would you like to include special characters? \nIf yes, please press 'OK', otherwise, please press 'Cancel'."); 
+    pwdOption.withNumericChar = confirm("Would you like to include numeric characters? \nIf yes, please press 'OK', otherwise, please press 'Cancel'."); 
+    pwdOption.withLowerCasedChar = confirm("Would you like to include lowercase characters? \nIf yes, please press 'OK', otherwise, please press 'Cancel'."); 
+    pwdOption.withUpperCasedChar = confirm("Would you like to include uppercase characters? \nIf yes, please press 'OK', otherwise, please press 'Cancel'."); 
     if (!pwdOption.withSpecialChar && !pwdOption.withNumericChar &&  
         !pwdOption.withLowerCasedChar && !pwdOption.withUpperCasedChar) {
       alert("Please choose at least one character type.");
