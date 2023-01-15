@@ -7,9 +7,13 @@ An application that generates a random password based on user's criteria. This a
 The password must be at least 10 characters long but no more than 64. Users can indicate whether the password includes following character types:
 
 :small_orange_diamond: Special characters ($@%&*, etc)
+
 :small_orange_diamond: Numeric
+
 :small_orange_diamond: Lowercase
+
 :small_orange_diamond: Uppercase
+
 
 ## Installation
 
